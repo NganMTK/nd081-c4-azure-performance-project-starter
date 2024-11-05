@@ -68,6 +68,7 @@ az vmss create \
   --custom-data cloud-init.txt \
   --upgrade-policy-mode automatic \
   --admin-username $adminName \
+  --orchestration-mode $orchestrationMode \
   --generate-ssh-keys \
   --verbose 
 
